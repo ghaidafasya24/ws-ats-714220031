@@ -1,9 +1,10 @@
 package controller
 
 import (
-	"github.com/gofiber/fiber/v2"
-	cek "github.com/ghaidafasya24/Kuisoner/module"
 	"github.com/aiteung/musik"
+	cek "github.com/ghaidafasya24/Kuisoner/module"
+	// "github.com/ghaidafasya24/ws-ats-714220031/config"
+	"github.com/gofiber/fiber/v2"
 	// "github.com/ghaidafasya24/Kuisoner"
 	// "github.com/ghaidafasya24/ws-ats-714220031/config"
 	// "go.mongodb.org/mongo-driver/bson/primitive"

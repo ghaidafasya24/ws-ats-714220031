@@ -20,3 +20,8 @@ func GetResponden(c *fiber.Ctx) error {
 	ps := cek.GetAllResponden()
 	return c.JSON(ps)
 }
+
+func GetPertanyaan(c *fiber.Ctx) error {
+	ps := cek.GetAllPertanyaan()
+	return c.JSON(ps)
+}

@@ -19,6 +19,7 @@ func Web(page *fiber.App) {
 
 	page.Get("/checkip", controller.Homepage)
 	page.Get("/responden", controller.GetResponden)
+	page.Get("/pertanyaan", controller.GetPertanyaan)
+	// page.Get("/responden/:id", controller.GetRespondenByID)
 	// page.Get("/", controller.GetResponden)
-
 }
